@@ -34,13 +34,10 @@
   background-position: center;
   will-change: transform;
   transition: var(--transition);
+  z-index: 3;
 
   //   will-change: transform -  просит браузер обратить внимание на данное измененение (transform), и потратить больше апаратного внимания
 }
-
-// .layers__caption {
-
-// }
 
 .layers__header {
   font-weight: 900;

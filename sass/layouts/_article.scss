@@ -14,12 +14,13 @@
 }
 
 .main-article__header {
+  margin-bottom: calc(var(--index) * 7);
   font-size: calc(var(--index) * 2);
   letter-spacing: calc(var(--index) / 7.5);
   color: var(--text);
   text-shadow: 2px 2px 15px #9e7d35;
   text-transform: uppercase;
-  transform: translate3d(0, calc(var(--scrollTop) / 10), 0);
+  transform: translate3d(0, calc(var(--scrollTop) / 8), 0);
   transition: var(--transition);
 }
 
