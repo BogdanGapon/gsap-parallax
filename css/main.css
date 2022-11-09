@@ -67,7 +67,6 @@ body {
   will-change: transform;
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  z-index: 3;
 }
 
 .layers__header {
@@ -111,6 +110,7 @@ body {
   will-change: transform;
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  z-index: 3;
 }
 
 .layer__front {

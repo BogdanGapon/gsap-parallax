@@ -34,7 +34,6 @@
   background-position: center;
   will-change: transform;
   transition: var(--transition);
-  z-index: 3;
 
   //   will-change: transform -  просит браузер обратить внимание на данное измененение (transform), и потратить больше апаратного внимания
 }
@@ -75,6 +74,7 @@
   transform: translate3d(0, calc(var(--scrollTop) / 2.5), 0);
   will-change: transform;
   transition: var(--transition);
+  z-index: 3;
 }
 
 .layer__front {
