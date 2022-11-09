@@ -1,0 +1,36 @@
+// если указать height, то контент будет обрезаться, а так как указанно min-height то контент не обрезается
+.main-article {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  min-height: 100vh;
+
+  background-image: url(../img/dungeon.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-article__header {
+  font-size: calc(var(--index) * 2);
+  letter-spacing: calc(var(--index) / 7.5);
+  color: var(--text);
+  text-shadow: 2px 2px 15px #9e7d35;
+  text-transform: uppercase;
+  transform: translate3d(0, calc(var(--scrollTop) / 10), 0);
+  transition: var(--transition);
+}
+
+.copy {
+  position: absolute;
+  bottom: 20px;
+
+  font-size: calc(var(--index) / 2.2);
+  letter-spacing: calc(var(--index) / 9);
+  color: var(--text);
+  text-shadow: 2px 2px 15px #9e7d35;
+  text-transform: uppercase;
+  opacity: 0.4;
+}
